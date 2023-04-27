@@ -1,0 +1,17 @@
+Dentro da Pasta Dist está tudo que irá aparecer no servidor WEB
+Um grande problema do JS é deixar alguns erros passar para frente por não avisar em tempo de desenvolvimento
+Para isso, utilizamos o TS
+Porém o navegador não consegue compreender TS
+Todo o Código que formos fazer, primeiro será feito em TS na pasta App e depois traduzido para o ambiente de produção na pasta dist
+Para tudo isso precisamos do Arquivo tsconfig.json
+Nele, as configurações mais básicas são:
+    dizer qual pasta vc vai jogar o que você quer traduzir
+    dizer para qual versão do echmaScript vc quer traduzir
+    dizer para quais pastas ião os arquivos traduzidos
+
+Ainda há outras config que serão adicionadas
+
+uma config muito importante no package json é adicionar o compile
+e adicionar a compilação automática ao mudar qualquer coisa no código
+
+O TypeScript adiciona tipagem ao código javaScript, ou seja, basicamnte adicionamos boas práticas e prevenção de erros à linguagem
