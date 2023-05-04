@@ -1,2 +1,2 @@
-# Projetos-Cursos
-Repositório de Cursos e projetos já realizados na Plataforma da alura, youtube, DIO, entre outros
+# TypeScript Alura
+Repositório de projetos do curso de TypeScript Alura
